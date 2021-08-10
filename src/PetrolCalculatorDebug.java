@@ -1,4 +1,9 @@
+import java.util.Scanner;
+
 public class PetrolCalculatorDebug {
+    public static void main(String[] args) {
+        new PetrolCalculatorDebug().calculate();
+    }
 
     public void calculate() {
         Scanner scanner = new Scanner(System.in);
@@ -23,8 +28,5 @@ public class PetrolCalculatorDebug {
             System.out.println("Стоимость " + volume + " литров АИ-100 = " + price + "₽");
         }
     }
-
-    public static void main(String[] args) {
-        new PetrolCalculatorDebug().calculate();
-    }
 }
+
